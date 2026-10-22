@@ -5,7 +5,7 @@ Flow for a PRIORITY alert:
       - declined / hung up while ringing -> STOP
       - ignored (no answer in RING_SECONDS) -> place call #2
       - answered -> Gemini Live starts talking
-  * On answer, Gemini speaks first: greeting "আসসালামু আলাইকুম জিসান ভাই", then explains
+  * On answer, Gemini speaks first: greeting "হ্যালো নয়ন ভাই", then explains
     the core topic + summary of the post, then keeps a two-way live audio stream open so
     the user can ask follow-up questions in real time.
 

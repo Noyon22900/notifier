@@ -31,7 +31,7 @@ try:
     MAX_CALL_SECONDS = int(os.getenv("MAX_CALL_SECONDS", "900") or 900)  # 15 minutes
 except ValueError:
     MAX_CALL_SECONDS = 900
-GREETING = "আসসালামু আলাইকুম জিসান ভাই"
+GREETING = "হ্যালো নয়ন ভাই"
 
 TG_RATE = 48000
 FRAME_MS = 10
